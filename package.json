@@ -1,0 +1,22 @@
+{
+  "name": "caching",
+  "version": "0.0.1",
+  "description": "Playing around with caching in JavaScript",
+  "main": "index.js",
+  "author": "Jacob Friedmann",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "benchmark": "node index.js -b",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "commander": "^2.15.1",
+    "inquirer": "^5.2.0",
+    "memoizee": "^0.4.12"
+  }
+}
